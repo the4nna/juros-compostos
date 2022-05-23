@@ -18,7 +18,7 @@ body #container {
   top: 20%;
   left: 10%;
   width: 80vw;
-  height: 60vh;
+  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,9 +33,12 @@ body #container {
       -ms-flex-align: center;
           align-items: center;
   background: #ffffffe6;
+  -webkit-box-shadow: 4px 2px 2px #0000006b;
+          box-shadow: 4px 2px 2px #0000006b;
 }
 
 body #container h1 {
+  position: absolute;
   margin: 10px 30px;
   text-align: center;
   -ms-flex-item-align: start;
@@ -43,6 +46,51 @@ body #container h1 {
   font-size: 1.3em;
   white-space: nowrap;
   font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+body #container .box {
+  margin-top: 20px;
+  width: 215px;
+}
+
+body #container .box label {
+  color: #474747;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+}
+
+body #container .box input {
+  background: #dadadae3;
+  border: none;
+  -webkit-box-shadow: 1px 2px 3px #80808063;
+          box-shadow: 1px 2px 3px #80808063;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 3px;
+}
+
+body #container .box select {
+  padding: 6px 38px;
+  text-align: center;
+  background: #dadadae3;
+  border: none;
+  -webkit-box-shadow: 1px 2px 3px #80808063;
+          box-shadow: 1px 2px 3px #80808063;
+}
+
+body #container .box button {
+  border-radius: 3px 6px;
+  background: black;
+  border: none;
+  color: white;
+  -webkit-box-shadow: 2px 2px 3px #000000a6;
+          box-shadow: 2px 2px 3px #000000a6;
+  margin-top: 24px;
+  margin-left: 24px;
+  padding: 8px 55px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
   font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */

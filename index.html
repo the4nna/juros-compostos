@@ -11,9 +11,49 @@
     <script src="https://kit.fontawesome.com/eccb42ae3e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    
     <div id="container">
-        <h1> Simulador de investimento </h1>
+    <h1> Simulador de investimento </h1>
+            <div class="box">
+                <form action="post" role="form" aria-label="Formulário" id="simulatorForm">
+                <label for="name"> Nome </label>
+                <input type="text" name="name" id="name">
+                <label for="monthly"> Mensalidade </label>
+                <input type="text" name="monthly" id="monthly">
+                <label for="rate"> Taxa de juros </label>
+                <input type="text" name="rate" id="rate">
+                <label for="contribution"> Tempo de contribuição </label>
+    
+                <select name="contribution" id="contributionTime">
+                    <option value="1"> 1 mês </option>
+                    <option value="2"> 2 meses </option>
+                    <option value="3"> 3 meses </option>
+                    <option value="4"> 4 meses </option>
+                    <option value="5"> 5 meses </option>
+                    <option value="6"> 6 meses </option>
+                    <option value="7"> 7 meses </option>
+                    <option value="8"> 8 meses </option>
+                    <option value="9"> 9 meses </option>
+                    <option value="10"> 10 meses </option>
+                    <option value="11"> 11 meses </option>
+                    <option value="12"> 12 meses </option>
+                    <option value="13"> 1 ano e 1 mês </option>
+                    <option value="14"> 1 ano e 2 meses </option>
+                    <option value="15"> 1 ano e 3 meses </option>
+                    <option value="16"> 1 ano e 4 meses </option>
+                    <option value="17"> 1 ano e 5 meses </option>
+                    <option value="18"> 1 ano e 6 meses </option>
+                    <option value="19"> 1 ano e 7 meses </option>
+                    <option value="20"> 1 ano e 8 meses </option>
+                    <option value="21"> 1 ano e 9 meses </option>
+                    <option value="22"> 1 ano e 10 meses </option>
+                    <option value="23"> 1 ano e 11 meses </option>
+                    <option value="24"> 2 anos </option>
+                </select>
+            </form>
+            <button id="simulatorBtn"> Simular </button>
+        </div>
+        
     </div>
 
     <script src="./script/main.js"></script>
