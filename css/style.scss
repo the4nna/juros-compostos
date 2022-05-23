@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../assets/wallpaper.png);
+  background-size: cover;
+  background-position: right;
+
+  #container {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffffe6;
+
+    h1 {
+      margin: 10px 30px;
+      text-align: center;
+      align-self: flex-start;
+      font-size: 1.3em;
+      white-space: nowrap;
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+    }
+  }
+}
