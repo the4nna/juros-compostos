@@ -19,12 +19,13 @@
                 <label for="name"> Nome </label>
                 <input type="text" name="name" id="name">
                 <label for="monthly"> Mensalidade </label>
-                <input type="text" name="monthly" id="monthly">
+                <input type="text" name="monthly" id="monthly" placeholder="Ex.: R$ 20,00">
                 <label for="rate"> Taxa de juros </label>
-                <input type="text" name="rate" id="rate">
+                <input type="text" name="rate" id="rate" placeholder="Ex.: 0,571">
                 <label for="contribution"> Tempo de contribuição </label>
     
                 <select name="contribution" id="contributionTime">
+                    <option value=""> Selecione </option>
                     <option value="1"> 1 mês </option>
                     <option value="2"> 2 meses </option>
                     <option value="3"> 3 meses </option>
@@ -50,12 +51,13 @@
                     <option value="23"> 1 ano e 11 meses </option>
                     <option value="24"> 2 anos </option>
                 </select>
+                <button id="simulatorBtn"> Simular </button>
             </form>
-            <button id="simulatorBtn"> Simular </button>
         </div>
-        
     </div>
 
+    
     <script src="./script/main.js"></script>
+    <script src="./script/inputError.js"></script>
 </body>
 </html>

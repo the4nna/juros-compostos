@@ -70,6 +70,12 @@ body #container .box input {
   border-radius: 3px;
 }
 
+body #container .box .inputError {
+  border: 1px solid red;
+  -webkit-box-shadow: 0px 2px 5px 0px #ff00004f;
+          box-shadow: 0px 2px 5px 0px #ff00004f;
+}
+
 body #container .box select {
   padding: 6px 38px;
   text-align: center;
@@ -77,6 +83,7 @@ body #container .box select {
   border: none;
   -webkit-box-shadow: 1px 2px 3px #80808063;
           box-shadow: 1px 2px 3px #80808063;
+  color: #474747;
 }
 
 body #container .box button {
