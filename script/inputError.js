@@ -26,15 +26,6 @@ function sendData(e) {
         inputMonthly.classList.remove("inputError")
     }
 
-    let inputRate = document.forms["simulatorForm"]["rate"]
-
-    if (!inputRate.value) {
-        haveError = true
-        inputRate.classList.add("inputError")
-    } else {
-        inputRate.classList.remove("inputError")
-    }
-
     let selectContribution = document.forms["simulatorForm"]["contribution"]
 
     if (!selectContribution.value) {

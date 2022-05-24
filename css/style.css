@@ -18,7 +18,8 @@ body #container {
   top: 20%;
   left: 10%;
   width: 80vw;
-  height: 65vh;
+  height: 60vh;
+  padding: 8px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +40,6 @@ body #container {
 
 body #container h1 {
   position: absolute;
-  margin: 10px 30px;
   text-align: center;
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -93,11 +93,27 @@ body #container .box button {
   color: white;
   -webkit-box-shadow: 2px 2px 3px #000000a6;
           box-shadow: 2px 2px 3px #000000a6;
-  margin-top: 24px;
+  margin-top: 30px;
   margin-left: 24px;
   padding: 8px 55px;
   font-family: "Open Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+body #container .box button:hover {
+  background: #252525;
+  -webkit-box-shadow: 1px 2px 3px #80808063;
+          box-shadow: 1px 2px 3px #80808063;
+}
+
+@media (min-width: 769px) {
+  body #container {
+    width: 50vw;
+    left: 25%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
